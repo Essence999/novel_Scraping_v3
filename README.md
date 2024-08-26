@@ -1,10 +1,10 @@
 Este projeto é uma ferramenta para baixar capítulos de web novels do site https://readnovelfull.com/ em um `.docx`.
 
 # Funcionalidades
-- Download de capítulos: Baixa capítulos de novels a partir de links fornecidos.
+- Download de capítulos: Baixa capítulos de novels a partir de links fornecidos utilizando automação de navegador com Playwright e requsisições HTTP assíncronas com aiohttp, asyncio e BeuatifulSoup.
 - Seleção de intervalo de capítulos: Permite definir o capítulo inicial e final a ser baixado, e a quantidade de partes.
-- Geração de documentos: Gera documentos .docx com o conteúdo baixado.
-- Tradução automática: Traduz automaticamente os capítulos para o português (opcional).
+- Geração de documentos: Gera documentos .docx com o conteúdo baixado usando PyDocX.
+- Tradução automática: Traduz automaticamente os capítulos para o português (opcional) utilizando a biblioteca googletrans.
 - Formatação automática: Realiza ajustes no conteúdo traduzido para melhorar a legibilidade.
 
 # Configuração
